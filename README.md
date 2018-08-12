@@ -110,7 +110,7 @@ Sorğu nəticəsində sizə əməliyyatın hazırkı statusu (gözləmədə, ça
  | PHP |\>= 5.5.0|
  | Laravel  |\>= 5.0|
  
-## <a href='#requirements' id='installation-guide' class='anchor' aria-hidden='true'>Yükləmə</a>
+## <a href='#installation' id='installation-guide' class='anchor' aria-hidden='true'>Yükləmə</a>
 
 **1. Paketi yükləyin**
 
