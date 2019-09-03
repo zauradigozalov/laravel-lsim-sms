@@ -117,7 +117,7 @@ Sorğu nəticəsində sizə əməliyyatın hazırkı statusu (gözləmədə, ça
 Paketi aşağıdakı komanda ilə proyektinizin composer.json faylına əlavə edin
 
 ```console
-foo@bar:/home/laravel-lsim-sms-demo# composer require samirmhdev/laravel-lsim-sms
+foo@bar:/home/laravel-lsim-sms-demo# composer require samirmh-dev/laravel-lsim-sms
 ```
 
 **2. Xidmət provayderini əlavə edin**
