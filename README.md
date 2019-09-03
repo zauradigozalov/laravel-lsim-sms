@@ -1,10 +1,14 @@
 # Laravel LSIM SMS
 
-[![Latest Stable Version](https://poser.pugx.org/samirmhdev/laravel-lsim-sms/v/stable?format=flat-square)](https://packagist.org/packages/samirmhdev/laravel-lsim-sms)
-[![Total Downloads](https://poser.pugx.org/samirmhdev/laravel-lsim-sms/downloads?format=flat-square)](https://packagist.org/packages/samirmhdev/laravel-lsim-sms)
-[![Monthly Downloads](https://poser.pugx.org/samirmhdev/laravel-lsim-sms/d/monthly?format=flat-square)](https://packagist.org/packages/samirmhdev/laravel-lsim-sms)
-[![Daily Downloads](https://poser.pugx.org/samirmhdev/laravel-lsim-sms/d/daily?format=flat-square)](https://packagist.org/packages/samirmhdev/laravel-lsim-sms)
-[![License](https://poser.pugx.org/samirmhdev/laravel-lsim-sms/license?format=flat-square)](https://packagist.org/packages/samirmhdev/laravel-lsim-sms)
+[![Latest Stable Version](https://poser.pugx.org/samirmh-dev/laravel-lsim-sms/v/stable)](https://packagist.org/packages/samirmh-dev/laravel-lsim-sms)
+[![License](https://poser.pugx.org/samirmh-dev/laravel-lsim-sms/license)](https://packagist.org/packages/samirmh-dev/laravel-lsim-sms)
+
+[![Total Downloads](https://poser.pugx.org/samirmh-dev/laravel-lsim-sms/downloads)](https://packagist.org/packages/samirmh-dev/laravel-lsim-sms)
+[![Monthly Downloads](https://poser.pugx.org/samirmh-dev/laravel-lsim-sms/d/monthly)](https://packagist.org/packages/samirmh-dev/laravel-lsim-sms)
+[![Daily Downloads](https://poser.pugx.org/samirmh-dev/laravel-lsim-sms/d/daily)](https://packagist.org/packages/samirmh-dev/laravel-lsim-sms)
+
+[![composer.lock](https://poser.pugx.org/samirmh-dev/laravel-lsim-sms/composerlock)](https://packagist.org/packages/samirmh-dev/laravel-lsim-sms)
+[![Latest Unstable Version](https://poser.pugx.org/samirmh-dev/laravel-lsim-sms/v/unstable)](https://packagist.org/packages/samirmh-dev/laravel-lsim-sms)
 
 Laravel frameworkdə LSIM SMS provayderi (sendsms.az) ilə SMS göndərmək üçün paket. Paketdən istifadə etmək üçün LSIM provayderindən müvaffiq məlumatları (istifadəçi adı, şifrə və s.) əldə etməlisiniz.
 
