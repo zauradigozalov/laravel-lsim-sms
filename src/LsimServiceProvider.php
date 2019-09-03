@@ -1,9 +1,9 @@
 <?php
 
-namespace mrsamirmh\LaravelLsimSms;
+namespace samirmhdev\LaravelLsimSms;
 
 use Illuminate\Support\ServiceProvider;
-use mrsamirmh\LaravelLsimSms\Controllers\LsimController;
+use samirmhdev\LaravelLsimSms\Controllers\LsimController;
 
 class LsimServiceProvider extends ServiceProvider
 {
@@ -32,7 +32,7 @@ class LsimServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->make('mrsamirmh\LaravelLsimSms\Controllers\LsimController');
+        $this->app->make('samirmhdev\LaravelLsimSms\Controllers\LsimController');
 
         $this->mergeConfigFrom(
             __DIR__ . '/../config/laravel-lsim-sms.php', 'laravel-lsim-sms'

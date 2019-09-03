@@ -1,6 +1,6 @@
 <?php
 
-namespace mrsamirmh\LaravelLsimSms\Exceptions;
+namespace samirmhdev\LaravelLsimSms\Exceptions;
 
 use Exception;
 

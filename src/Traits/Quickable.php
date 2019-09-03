@@ -1,11 +1,11 @@
 <?php
 
-namespace mrsamirmh\LaravelLsimSms\Traits;
+namespace samirmhdev\LaravelLsimSms\Traits;
 
-use mrsamirmh\LaravelLsimSms\Exceptions\InsufficientBalanceException;
-use mrsamirmh\LaravelLsimSms\Exceptions\InvalidNotifiableCredentialsException;
-use mrsamirmh\LaravelLsimSms\Exceptions\InvalidPhoneNumberException;
-use mrsamirmh\LaravelLsimSms\Exceptions\UnknownLsimCredentials;
+use samirmhdev\LaravelLsimSms\Exceptions\InsufficientBalanceException;
+use samirmhdev\LaravelLsimSms\Exceptions\InvalidNotifiableCredentialsException;
+use samirmhdev\LaravelLsimSms\Exceptions\InvalidPhoneNumberException;
+use samirmhdev\LaravelLsimSms\Exceptions\UnknownLsimCredentials;
 
 trait Quickable
 {

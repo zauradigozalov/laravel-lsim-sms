@@ -1,10 +1,10 @@
 # Laravel LSIM SMS
 
-[![Latest Stable Version](https://poser.pugx.org/mrsamirmh/laravel-lsim-sms/v/stable?format=flat-square)](https://packagist.org/packages/mrsamirmh/laravel-lsim-sms)
-[![Total Downloads](https://poser.pugx.org/mrsamirmh/laravel-lsim-sms/downloads?format=flat-square)](https://packagist.org/packages/mrsamirmh/laravel-lsim-sms)
-[![Monthly Downloads](https://poser.pugx.org/mrsamirmh/laravel-lsim-sms/d/monthly?format=flat-square)](https://packagist.org/packages/mrsamirmh/laravel-lsim-sms)
-[![Daily Downloads](https://poser.pugx.org/mrsamirmh/laravel-lsim-sms/d/daily?format=flat-square)](https://packagist.org/packages/mrsamirmh/laravel-lsim-sms)
-[![License](https://poser.pugx.org/mrsamirmh/laravel-lsim-sms/license?format=flat-square)](https://packagist.org/packages/mrsamirmh/laravel-lsim-sms)
+[![Latest Stable Version](https://poser.pugx.org/samirmhdev/laravel-lsim-sms/v/stable?format=flat-square)](https://packagist.org/packages/samirmhdev/laravel-lsim-sms)
+[![Total Downloads](https://poser.pugx.org/samirmhdev/laravel-lsim-sms/downloads?format=flat-square)](https://packagist.org/packages/samirmhdev/laravel-lsim-sms)
+[![Monthly Downloads](https://poser.pugx.org/samirmhdev/laravel-lsim-sms/d/monthly?format=flat-square)](https://packagist.org/packages/samirmhdev/laravel-lsim-sms)
+[![Daily Downloads](https://poser.pugx.org/samirmhdev/laravel-lsim-sms/d/daily?format=flat-square)](https://packagist.org/packages/samirmhdev/laravel-lsim-sms)
+[![License](https://poser.pugx.org/samirmhdev/laravel-lsim-sms/license?format=flat-square)](https://packagist.org/packages/samirmhdev/laravel-lsim-sms)
 
 Laravel frameworkdə LSIM SMS provayderi (sendsms.az) ilə SMS göndərmək üçün paket. Paketdən istifadə etmək üçün LSIM provayderindən müvaffiq məlumatları (istifadəçi adı, şifrə və s.) əldə etməlisiniz.
 
@@ -117,7 +117,7 @@ Sorğu nəticəsində sizə əməliyyatın hazırkı statusu (gözləmədə, ça
 Paketi aşağıdakı komanda ilə proyektinizin composer.json faylına əlavə edin
 
 ```console
-foo@bar:/home/laravel-lsim-sms-demo# composer require mrsamirmh/laravel-lsim-sms
+foo@bar:/home/laravel-lsim-sms-demo# composer require samirmhdev/laravel-lsim-sms
 ```
 
 **2. Xidmət provayderini əlavə edin**
@@ -129,12 +129,12 @@ Daha sonra xidmət provayderini və paket üçün qısa adı ```app/config/app.p
 ```php
 'providers' => [
     ...
-    \mrsamirmh\LaravelLsimSms\LsimServiceProvider::class,
+    \samirmhdev\LaravelLsimSms\LsimServiceProvider::class,
 ],
 
 'aliases' => [
     ...
-    "LaravelLsimSms"=> \mrsamirmh\LaravelLsimSms\Facades\LsimFacade::class,
+    "LaravelLsimSms"=> \samirmhdev\LaravelLsimSms\Facades\LsimFacade::class,
 ]
 ```
 

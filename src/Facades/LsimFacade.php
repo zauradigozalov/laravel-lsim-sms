@@ -1,6 +1,6 @@
 <?php
 
-namespace mrsamirmh\LaravelLsimSms\Facades;
+namespace samirmhdev\LaravelLsimSms\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

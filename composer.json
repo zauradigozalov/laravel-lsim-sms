@@ -1,5 +1,5 @@
 {
-    "name": "mrsamirmh/laravel-lsim-sms",
+    "name": "samirmh-dev/laravel-lsim-sms",
     "description": "LSIM SMS provayderinden istifade ederek Laravel ile SMS gondermek ucun paket",
     "keywords": [
         "lsim",
@@ -10,12 +10,12 @@
         "php",
         "sendsms.az"
     ],
-    "homepage": "https://github.com/mrsamirmh/laravel-lsim-sms",
+    "homepage": "https://github.com/samirmh-dev/laravel-lsim-sms",
     "license": "MIT",
     "authors": [
         {
             "name": "Samir Mammadhasanov",
-            "email": "contact@mrsamir.com"
+            "email": "hello@samirmh.dev"
         }
     ],
     "minimum-stability": "stable",
@@ -28,16 +28,16 @@
     },
     "autoload": {
         "psr-4": {
-            "mrsamirmh\\LaravelLsimSms\\": "src"
+            "samirmhdev\\LaravelLsimSms\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "mrsamirmh\\LaravelLsimSms\\LsimServiceProvider"
+                "samirmhdev\\LaravelLsimSms\\LsimServiceProvider"
             ],
             "aliases": {
-                "LaravelLsimSms": "mrsamirmh\\LaravelLsimSms\\Facades\\LsimFacade"
+                "LaravelLsimSms": "samirmhdev\\LaravelLsimSms\\Facades\\LsimFacade"
             }
         }
     }

@@ -1,9 +1,9 @@
 <?php
 
-namespace mrsamirmh\LaravelLsimSms\Traits;
+namespace samirmhdev\LaravelLsimSms\Traits;
 
 use GuzzleHttp\Client;
-use mrsamirmh\LaravelLsimSms\Exceptions\InvalidMethodException;
+use samirmhdev\LaravelLsimSms\Exceptions\InvalidMethodException;
 
 trait Requestable
 {

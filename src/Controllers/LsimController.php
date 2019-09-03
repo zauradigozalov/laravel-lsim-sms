@@ -1,10 +1,10 @@
 <?php
 
-namespace mrsamirmh\LaravelLsimSms\Controllers;
+namespace samirmhdev\LaravelLsimSms\Controllers;
 
 use App\Http\Controllers\Controller;
-use mrsamirmh\LaravelLsimSms\Traits\Quickable;
-use mrsamirmh\LaravelLsimSms\Traits\Requestable;
+use samirmhdev\LaravelLsimSms\Traits\Quickable;
+use samirmhdev\LaravelLsimSms\Traits\Requestable;
 
 class LsimController extends Controller
 {
