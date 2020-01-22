@@ -1,4 +1,4 @@
-![Image of social preview](https://repository-images.githubusercontent.com/144467857/20a17280-3cff-11ea-95b6-0b7df3b22d3d)
+![Image of social preview](https://repository-images.githubusercontent.com/144467857/69592b80-3cff-11ea-87da-adc82565af68)
 
 # Laravel LSIM SMS
 
