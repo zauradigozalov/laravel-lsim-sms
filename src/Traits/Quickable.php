@@ -93,7 +93,7 @@ trait Quickable
      */
     public function hasBalance()
     {
-        if ($this->checkBalance()->getData()->response->obj === 1)
+        if ($this->checkBalance()->getData()->response->obj === 100)
             if (config('laravel-lsim-sms.notifiable.enabled')) {
                 if (config('laravel-lsim-sms.notifiable.phone') === null || config('laravel-lsim-sms.notifiable.message') === null)
                     throw new InvalidNotifiableCredentialsException();

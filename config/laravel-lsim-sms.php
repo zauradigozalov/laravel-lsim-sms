@@ -16,6 +16,6 @@ return [
         */
         'phone'=> env('LSIM_NOTIFIABLE_NUMBER',null),
 
-        'message'=> env('LSIM_NOTIFIABLE_MESSAGE', 'Sizin LSIM balansınız bitmişdir!')
+        'message'=> env('LSIM_NOTIFIABLE_MESSAGE', 'LSIM balans 100e yaxinlasib. Balansi artirin.')
     ]
 ];
